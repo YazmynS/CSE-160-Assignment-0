@@ -157,3 +157,7 @@ function handleDrawEvent(){
         drawVector(ctx, v3, 'green');
     }
 }
+
+window.onload = function () {
+    main();
+};
